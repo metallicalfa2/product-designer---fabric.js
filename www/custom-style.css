@@ -1,0 +1,84 @@
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.home-banner{
+	top: 10rem;
+	position: relative;
+}
+.home-banner:hover {
+	cursor: pointer;
+}
+.home-banner .modal-content{
+	width: 100% !important;
+}
+.contacts-list .modal-content{
+  width: 100% !important;
+}
+.wizard-content{
+	padding: 0 !important;
+}
+.user-bg{
+	margin: 0;
+}
+.user-btm-box{
+	padding-top: 10px;
+}
+
+.two-three{
+	display: inline-block;
+  position: relative;
+  width: 100%;overflow: hidden;
+}
+
+.two-three:after {
+  padding-top: 66.6666%;
+  /* 16:9 ratio */
+  display: block;
+  content: '';
+}
+.contain-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* fill parent */
+  background-color: rgba(0,0,0,0.33);
+  /* let's see it! */
+}
+/*.panel-body{
+	padding: 0 !important;
+}*/
+.close-button-right{
+	position: absolute;
+	z-index: 1;
+	top: -11px;
+	right: -14px;
+
+}
+.float-right{
+	float: right;
+}
+.pad-2em{
+  padding: 0 2em;
+
+
+}
+
+.display-hide{
+  display: none;
+}
+.contacts-display{
+  display: none;
+}
+.display-show{
+  display: block;;
+}
+.max-height-500{
+  max-height: 500px;
+  overflow: scroll;
+}
